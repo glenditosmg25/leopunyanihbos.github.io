@@ -1,0 +1,213 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em; /* 16px = 100% = 1em*/
+  color: #83BD75;
+  line-height: 2;
+}
+h2{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #83BD75;
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-weight: bold;
+  padding-top: 5px;
+
+}
+h3{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #11999E;
+  font-size: 2rem;
+}
+a{
+  text-decoration: none;
+  color: #86E69C;
+}
+a:hover{
+  color: #BFFFF0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+p{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+hr{
+  border: dotted #83BD75 11px;
+  border-bottom: none;
+  width: 5%;
+  margin: 150px auto;
+}
+.intro{
+  width: 65%;
+  margin: 0 auto;
+}
+.top-container{
+  background-color: #CEE5D0;
+  padding-top: 79px;
+  position: relative;
+}
+.nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #CEE5D0;
+  position: fixed;
+  width: 100%;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 80%;
+}
+.brand{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.firstname{
+  color: #4FA095;
+  font-weight: 700;
+}
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation>li{
+  list-style-type: none;
+  padding: 15px;
+}
+.navigation>li>a{
+  text-decoration: none;
+  color: #83BD75;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.navigation>li>a:hover{
+  color: #0E5E6F;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.bottom-container{
+    background-color: #377D71;
+    padding: 70px;
+    font-size: 1.4rem;
+}
+.copyright{
+  color: #E9EFC0;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+#profile{
+  width: 60%;
+  margin: 100px auto;
+}
+.education_tabel{
+  margin:50px auto;
+}
+.experience_tabel{
+  margin:50px auto;
+}
+th{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+td{
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 5px 15px;
+}
+.skills{
+  padding-top: 20px;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  color: white;
+}
+.self-picture{
+  width: 230px;
+}
+.skill-1{
+  width: 230px;
+  float: left;
+  margin-right: 30px;
+}
+.skill-2{
+  width: 230px;
+  float: right;
+  margin-left: 30px;
+}
+.skill-2-title{
+  margin-top: 120px;
+  text-align: right;
+}
+.skill-2-description{
+  text-align: right;
+}
+.footer-link{
+  margin: 20px;
+}
+.contact-me{
+  margin: 70px auto 70px;
+  line-height: 2;
+}
+.contact-text{
+  width: 50%;
+  margin: 40px auto;
+  }
+.btn {
+  background: #57c7b3;
+  background-image: -webkit-linear-gradient(top, #57c7b3, #377D71);
+  background-image: -moz-linear-gradient(top, #57c7b3, #377D71);
+  background-image: -ms-linear-gradient(top, #57c7b3, #377D71);
+  background-image: -o-linear-gradient(top, #57c7b3, #377D71);
+  background-image: linear-gradient(to bottom, #57c7b3, #377D71);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 10px 32px 15px 34px;
+  border: solid #377D71 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #ffffff;
+  background: #62e0c9;
+  background-image: -webkit-linear-gradient(top, #62e0c9, #57c7b3);
+  background-image: -moz-linear-gradient(top, #62e0c9, #57c7b3);
+  background-image: -ms-linear-gradient(top, #62e0c9, #57c7b3);
+  background-image: -o-linear-gradient(top, #62e0c9, #57c7b3);
+  background-image: linear-gradient(to bottom, #62e0c9, #57c7b3);
+  text-decoration: none;
+}
